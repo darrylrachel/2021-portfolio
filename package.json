@@ -1,5 +1,5 @@
 {
-  "name": "CodingPhase-StarterKit",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Super Cool Framework",
   "main": "index.js",
@@ -39,8 +39,8 @@
     "webpack-stream": "^3.2.0"
   },
   "scripts": {
-    "bundle": "./node_modules/.bin/webpack",
-    "production": "./node_modules/.bin/webpack -p",
+    "bundle": "webpack",
+    "production": "webpack -p",
     "watch": "gulp",
     "sass": "gulp styles",
     "js": "gulp webpack"
@@ -48,5 +48,12 @@
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrylrachel/2021-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darrylrachel/2021-portfolio/issues"
   }
 }

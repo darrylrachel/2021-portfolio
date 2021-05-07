@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
+.spacer {
+  height: 100px;
+}
+td {
+  border: 1px solid green;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.top_container {
+  max-width: 100%;
+  background-color: #000000;
+  height: 720px;
+}
+.wrapper {
+  width: 1430px;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  position: relative;
+}
+.sub_wrapper {
+  width: 1154px;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  margin-top: 46px;
+}
+.left {
+  float: left;
+}
+p.logo {
+  color: #ffffff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.right {
+  float: right;
+  padding-right: 10px; 
+}
+.right ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 30px;
+}
+.right ul li.menu-items {
+  color: #ffffff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  display: inline;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 16px;
+}
+.headline {
+  padding-top: 260px;
+}
+.title,
+.name {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+p.name {
+  font-size: 72px;
+  margin: 0;
+}
+.title {
+  margin: 0;
+  font-size: 20px;
+}
+i.fab.fa-github,
+i.fab.fa-linkedin-in {
+  color: white;
+  display: block;
+  font-size: 30px;
+}
+i.fab.fa-github {
+  padding-bottom: 20px;
+}
+.hero_social {
+  float: right;
+  position: absolute;
+  bottom: 160px;
+  right: 0;
+  padding-right: 60px;
+}
+section.about_me {
+  text-align: center;
+  padding-top: 120px;
+}
+.about {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: underline 3px gold;
+}
+.about_me-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+}
+p.story {
+  font-size: 18px;
+  margin:0;
+  padding-top: 30px;
+}
+.down_arrow {
+  margin: 0 auto;
+  position: relative;
+}
+i.fas.fa-chevron-down {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  right: 577px;
+  top: 250px;
+}
+.flow, .skills, .tools {
+  position: relative;
+}
+.sep {
+  border-top: 1px solid #72F0FF;
+  width: 50px;
+  color: #72F0FF;
+  position: absolute;
+  right: 320px;
+  bottom: 99px;
+}
+.flow, .skills, .tools, .title {
+  text-transform: uppercase;
+}
+span.skill_title {
+    margin-left: 44px;
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+}
+.title {
+  font-weight: 700;
+}
+.number {
+  color: #72F0FF;
+}
+.item_list {
+  display: inline;
+}
+ul.list {
+  padding-left: 98px;
+}
